@@ -1,0 +1,53 @@
+body {
+    background-color: gray;
+    margin: 150px;
+}
+div {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.white {
+    z-index: 0;
+    display: inline-block;
+    margin: -2px;
+    padding: 300px 30px 50px;
+    border: 1px black solid;
+    background-color: white;
+    text-align: center;
+}
+.black {
+    z-index: 1;
+    display: inline-block;
+    margin: -1px;
+    padding: 200px 25px 30px;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#W {
+    position: relative;
+    bottom: 364px;
+    right: 52px;
+}
+#E {
+    position: relative;
+    bottom: 364px;
+    right: 44px;
+}
+#T {
+    position: relative;
+    bottom: 364px;
+    left: 34px;
+}
+#Y {
+    position: relative;
+    bottom: 364px;
+    left: 42px;
+}
+#U {
+    position: relative;
+    bottom: 364px;
+    left: 49px;
+}
